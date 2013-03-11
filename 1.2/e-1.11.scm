@@ -3,7 +3,7 @@
     n
     (+ (foo (- n 1))
        (* 2 (foo (- n 2)))
-       (* 3 (foo (- n 3)))))))
+       (* 3 (foo (- n 3))))))
 
 (define (foo n)
   (define (foo-iter acc1 acc2 acc3 n)
